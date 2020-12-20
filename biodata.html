@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:white;
+color:maroon;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="biodata.css" />
+<title>Biodata</title>
+</head>
+<body bgcolor="maroon">
+<br>
+<img src="logo.png" width="100%" align="center">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a class="active" href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<h1 class="glow">ABOUT ME!</h1>
+  <img src="biodata1.jpg" border="2" hspace="120" align="center" width="270px" height="600px">
+  <div class="column right" style="background-color:transparent; color: white; font-family: arial; font-size: 20px; text-align: justify;">
+    <p><i>Hi, my name is Qistina Izni binti Mohd Faudzi. 
+          I was born on 3 January 2000 at Hospital Bersalin, Kuala Lumpur. Now, I am 20 Years Old.
+          After 5 months of my born day, my mother bought me and my brothers to Kulim, Kedah. 
+          At that time my mother's workplace got changed from hospital in Kuala Lumpur to Hospital Kulim at Kedah, 
+          while my father still work at same place which is National Museum of Malaysia, Kuala Lumpur.
+          On November, 2000, my father got to change his workplace from National Museum of Malaysia, Kuala Lumpur to Bujang Valley Archaeological Museum (Muzium Arkeologi Lembah Bujang), Sungai Petani, Kedah.</i></p> 
+    <p><i>I am the youngest and also the only daughter in my family. I got 2 oldest brother above me. Both of them has finished their school and now working.
+          In my free time, I love to read. It does not matter either reading books, newspaper or story from website. The genre of the book that I love to read are mystery, thriller, horror fiction and historical fiction.
+          Other than that, I also like to listen to music and play games either on smartphone or pc.</p>
+  </div>
+</div>
+<b>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMD311</p>
+</div>
+</body>
+</html>

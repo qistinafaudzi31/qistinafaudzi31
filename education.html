@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:white;
+color:maroon;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="education.css" />
+<title>My Personal Website</title>
+</head>
+<body bgcolor="maroon">
+<br>
+<img src="logo.png" width="100%" align="center">
+<a name="top"></a>
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a class="active" href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<div class="bg-image-1"></div>
+
+<div class="bg-text-1">
+  <img src="logosktam.png" align="center">
+  <h1>SEKOLAH KEBANGSAAN TUNKU ABDUL MALIK(SKTAM)</h1>
+  <p>This is my primary school, SKTAM. I studied here from 2007 until 2012. </p>
+  <p>Sekolah Kebangsaan Tunku Abdul Malik, SKTAM was located at Kulim, Kedah. </p>
+  <a href="http://sktamkulim.blogspot.com/" target="_blank">SK Tunku Abdul Malik Official Blog</a>
+</div>
+<br>
+<div class="bg-image-2"></div>
+
+<div class="bg-text-2">
+  <img src="logosmksb.png" align="center">
+  <h1>SEKOLAH MENENGAH KEBANGSAAN SULTAN BADLISHAH (SMKSB)</h1>
+  <p>This is my secondary school, SMKSB. I studied here from 2013 until 2017. </p>
+  <p>Sekolah Menenengah Kebangsaan Sultan Badlishah, SMKSB was located at Kulim, Kedah. </p>
+  <a href="http://smkbadlishah.weebly.com/index.html" target="_blank">Portal SMK Sultan Badlishah</a>
+</div>
+<br>
+<div class="bg-image-3"></div>
+
+<div class="bg-text-3">
+  <img src="logouitm.png" align="center">
+  <h1>UNIVERSITI TEKNOLOGI MARA (UiTM), CAWANGAN KEDAH</h1>
+  <p>This is a place where I take my diploma course, UiTM. Universiti Teknologi Mara (UiTM) Cawangan Kedah was located at Sungai Petani, Kedah. </p>
+  <p>I studied here from 2018 until now. This is my last semester in UiTM Cawangan Kedah as diploma student.  </p>
+  <p>I study in Diploma of Information Management. </p>
+  <a href="https://kedah.uitm.edu.my/" target="_blank">UiTM Kedah Official Website</a>
+</div>
+<br>
+  <a href="#top"><img src="top.png" width="93px" height="93px"></a>
+<b>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMD311</p>
+</div>
+</body>
+</html>

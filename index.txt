@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:maroon;
+color:white;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="home.css" />
+<title>Home</title>
+</head>
+<body bgcolor="maroon">
+<br>
+<img src="logo.png" width="100%" align="center">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<div style="background-image: url('grid.jpg');">
+<br>
+<h2 align="center">MY PERSONAL WEBSITE!</h2>
+<img src="home.jpg" border="2" vspace="1" hspace="530" align="center">
+<p align="center"> Assalamualaikum, my name is Qistina Izni. </p>
+<p align="center"> I am a diploma student at UiTM Cawangan Kedah.</p>
+<br>
+<br>
+<br>
+<h1>Favourite Music Video</h1>
+<embed src="mungkin.mp4" autostart="true" width="20%" height="50%" hspace="20"></embed>
+<br>
+<a href="https://www.youtube.com/watch?v=fR4B5FDlNBA">Anneth - Mungkin Hari Ini Esok Atau Nanti (Official Music Video)</a>
+<br>
+<br>
+<h1>Favourite Playlist</h1>
+<a href="alone.mp3" autoplay="false">Alan Walker - Alone</a>
+<br>
+<a href="alone2.mp3" autoplay="false">Alan Walker & Ava Max - Alone, Pt. II</a>
+<br>
+<a href="faded.mp3" autoplay="false">Alan Walker - Faded</a>
+<br>
+<br>
+<br>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='white'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMD311</p>
+</div>
+</body>
+</html>

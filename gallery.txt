@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:white;
+color:maroon;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="gallery.css" />
+<title>Family</title>
+</head>
+<body bgcolor="maroon">
+<br>
+<img src="logo.png" width="100%" align="center">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a href="family.html">Family</a>
+  <a class="active" href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<h2 align="center">GALLERY</h2>
+<br>
+<div class="gallery">
+  <a target="_blank" href="gallery2.jpg">
+    <img src="gallery2.jpg" alt="Gallery 2" width="600" height="400">
+  </a>
+  <div class="desc">My parent!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery3.jpg">
+    <img src="gallery3.jpg" alt="Gallery 3" width="600" height="400">
+  </a>
+  <div class="desc">This is me!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery4.jpg">
+    <img src="gallery4.jpg" alt="Gallery 4" width="600" height="400">
+  </a>
+  <div class="desc">My classmate!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery16.jpg">
+    <img src="gallery16.jpg" alt="Gallery 16" width="600" height="400">
+  </a>
+  <div class="desc">My friends!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery6.jpg">
+    <img src="gallery6.jpg" alt="Gallery 6" width="600" height="400">
+  </a>
+  <div class="desc">My friend!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery7.jpg">
+    <img src="gallery7.jpg" alt="Gallery 7" width="600" height="400">
+  </a>
+  <div class="desc">My friends!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery8.jpg">
+    <img src="gallery8.jpg" alt="Gallery 8" width="600" height="400">
+  </a>
+  <div class="desc">My friend!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery9.jpg">
+    <img src="gallery9.jpg" alt="Gallery 9" width="600" height="400">
+  </a>
+  <div class="desc">My classmates!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery10.jpg">
+    <img src="gallery10.jpg" alt="Gallery 10" width="600" height="400">
+  </a>
+  <div class="desc">My friend!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery11.jpg">
+    <img src="gallery11.jpg" alt="Gallery 11" width="600" height="400">
+  </a>
+  <div class="desc">My roommates!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery12.jpg">
+    <img src="gallery12.jpg" alt="Gallery 12" width="600" height="400">
+  </a>
+  <div class="desc">My classmates!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery13.jpg">
+    <img src="gallery13.jpg" alt="Gallery 13" width="600" height="400">
+  </a>
+  <div class="desc">My classmates!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery14.jpg">
+    <img src="gallery14.jpg" alt="Gallery 14" width="600" height="400">
+  </a>
+  <div class="desc">My friends!</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="gallery5.jpg">
+    <img src="gallery5.jpg" alt="Gallery 15" width="600" height="400">
+  </a>
+  <div class="desc">My friends!</div>
+</div>
+<b>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='black'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMD311</p>
+</div>
+</body>
+</html>

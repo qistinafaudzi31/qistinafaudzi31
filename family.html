@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<!--
+.styling{
+background-color:maroon;
+color:white;
+font: bold 18px MS Sans Serif;
+padding: 10px;
+}
+-->
+</style>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" type="text/css" href="family.css" />
+<title>Family</title>
+</head>
+<body bgcolor="maroon">
+<br>
+<img src="logo.png" width="100%" align="center">
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="biodata.html">Biodata</a>
+  <a href="education.html">Education</a>
+  <a class="active" href="family.html">Family</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact Me</a>
+</div>
+<br>
+<div style="background-image: url('cloud.jpeg');">
+<br>
+<h2 align="center">MY LOVELY FAMILY</h2>
+<br>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="family1.jpg" style="width:100%" position="center">
+    <div class="text">My Family</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="family2.jpg" style="width:100%">
+    <div class="text">My Family</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="family3.jpg" style="width:100%">
+    <div class="text">My Family</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 7</div>
+    <img src="family4.jpg" style="width:100%">
+    <div class="text">My Parent</div>
+   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="family5.jpg" style="width:100%">
+    <div class="text">My Cat</div>
+   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="family6.jpg" style="width:100%">
+    <div class="text">My Cat</div>
+   </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <img src="family7.jpg" style="width:100%">
+    <div class="text">My Kitten</div>
+   </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<table border="1" align="center" valign="middle"
+cellpadding="5" cellspacing="5">
+<tr>
+<tr align="center">
+<td rowspan="5" bgcolor="tomato">MY FAMILY</td>
+<th bgcolor="tomato">Name</th>
+<th bgcolor="tomato">Relationship</th>
+</tr>
+<tr align="center">
+<td bgcolor="lavender">Mohd Faudzi Bin Sulaiman</td>
+<td bgcolor="lavender">Father</td>
+</tr>
+<tr align="center">
+<td bgcolor="lavender">Rosliza Binti Othman</td>
+<td bgcolor="lavender">Mother</td>
+</tr>
+<tr align="center">
+<td bgcolor="lavender">Muhammad Syawal Syafiq Bin Mohd Faudzi</td>
+<td bgcolor="lavender">Brother</td>
+</tr>
+<tr align="center">
+<td bgcolor="lavender">Muhammad Afif Bin Mohd Faudzi</td>
+<td bgcolor="lavender">Brother</td>
+</tr>
+</table> 
+<br>
+<p align="center"><font face="courier new">
+   This is my lovely family. My father, Mohd Faudzi bin Sulaiman is 53 Years Old this year. He work as Museum Assistant at
+   Bujang Valley Archaeological Museum (Muzium Arkeologi Lembah Bujang), Sungai Petani, Kedah. 
+   My mother, Rosliza Binti Othman is 49 Years Old this year. She work as nurse at Hospital Kulim, Kedah.
+   My eldest brother, Muhammad Syawal Syafiq Bin Mohd Faudzi is 26 Years Old this year. He work at Seroja Dialysis Center, Kulim, Kedah.
+   My second brother, Muhammad Afif Bin Mohd Faudzi is 23 Years Old this year. He work at Symbiotica Speciality Ingredients Sdn. Bhd., Kulim, Kedah.</a>
+<p align="center"><font face="courier new">
+   I also have 2 cat and 4 kitten under my care.</p>
+<b>
+<script type="text/javascript" src="https://freehitcounters.org/count/7zts"></script>
+<br>
+<span id="digitalclock" class="styling"></span>
+
+<script>
+<!--
+var alternate=0
+
+function show(){
+var clockobj=document.getElementById? document.getElementById("digitalclock") : document.all.digitalclock
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var dn="AM"
+
+if (hours==12) dn="PM" 
+if (hours>12){
+dn="PM"
+hours=hours-12
+}
+if (hours==0) hours=12
+if (hours.toString().length==1)
+hours="0"+hours
+if (minutes<=9)
+minutes="0"+minutes
+
+if (alternate==0)
+clockobj.innerHTML=hours+"<font color='maroon'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+else
+clockobj.innerHTML=hours+"<font color='white'> : </font>"+minutes+" "+"<sup>"+dn+"</sup>"
+alternate=(alternate==0)? 1 : 0
+setTimeout("show()",1000)
+}
+window.onload=show
+
+//-->
+</script>
+
+<div class="footer">
+  <p>THIS WEBSITE DESIGNED FOR IMD311</p>
+</div>
+</body>
+</html>
